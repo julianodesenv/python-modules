@@ -42,11 +42,11 @@ dados = json.loads(clientes_json)
 print(dados)
 
 # Exporta dicionário para arquivo JSON
-with open('clients.json', 'w') as f:
+with open('./003 - json/clients.json', 'w') as f:
     json.dump(clientes_dicionario, f, indent=4)
 
 # Importa string de um arquivo JSON e converte em dicionário
-with open('clients.json', 'r') as f:
+with open('./003 - json/clients.json', 'r') as f:
     data = json.load(f)
 
 print(data)
