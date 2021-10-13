@@ -5,12 +5,12 @@ dados, clientes de e-mail, etc...
 """
 import csv
 
-with open('./004 - csv/clients.csv', 'r') as arquivo:
-    dados = [x for x in csv.DictReader(arquivo)]
+with open('./004 - csv/clients.csv', 'r') as file:
+    dados = [x for x in csv.DictReader(file)]
 
-with open('./004 - csv/clients2.csv', 'w') as arquivo:
+with open('./004 - csv/clients2.csv', 'w') as file:
     escreve = csv.writer(
-        arquivo,
+        file,
         delimiter=',',
         quotechar='"',
         quoting=csv.QUOTE_ALL
