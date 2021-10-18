@@ -13,7 +13,7 @@ def main(main_images_folder, new_width=800):
 
     for root, dirs, files in os.walk(main_images_folder):
         for file in files:
-            file_full_path = os.path.join(root, file)
+            file_full_path = os.path.join(root, file
             file_name, extension = os.path.splitext(file)
 
             converted_tag = '_CONVERTED'
