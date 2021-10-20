@@ -168,10 +168,14 @@ Pygments @ file:///tmp/build/80754af9/pygments_1615143339740/work
 pylint @ file:///C:/ci/pylint_1617136058775/work
 pyls-black @ file:///tmp/build/80754af9/pyls-black_1607553132291/work
 pyls-spyder @ file:///tmp/build/80754af9/pyls-spyder_1613849700860/work
+PyMySQL==1.0.2
 PyNaCl @ file:///C:/ci/pynacl_1595000047588/work
 pyodbc===4.0.0-unsupported
 pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
 pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+PyQt5==5.15.5
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.9.0
 pyreadline==2.1
 pyrsistent @ file:///C:/ci/pyrsistent_1600141795814/work
 PySocks @ file:///C:/ci/pysocks_1605287845585/work
